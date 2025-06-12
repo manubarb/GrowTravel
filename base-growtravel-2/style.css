@@ -1,4 +1,4 @@
-.container{
+.ul-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -14,5 +14,30 @@
 }
 .nav-bar{
     background-color: rgb(61, 102, 178);
-    padding: 1vw;
+    padding: 2vw;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+.sec-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    flex-basis: 50%;
+    margin: 100px 10px 10px; /* trabaiando*/
+}
+.side{
+/* hmm */
+}
+.img-container{
+    max-width: 400px;
+
 }
